@@ -31,7 +31,7 @@ document.querySelector(".check").addEventListener("click", function () {
   } else if (guess !== secretNumber) {
     if (score > 1) {
       displaymessage(
-        guess > secretNumber ? "Its too high 📈!" : "Its stoo low 📉!"
+        guess > secretNumber ? "Its too high 📈!" : "Its too low 📉!"
       );
       score--;
       document.querySelector(".score").textContent = score;
